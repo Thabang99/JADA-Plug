@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home1"
+        android:icon="@drawable/newhome"
+        app:cnb_textColor="#fff"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_iconColor="#fff"
+        android:title="HOME"
+
+        />
+
+
+    <item
+        android:id="@+id/match"
+        android:icon="@drawable/newheart"
+        app:cnb_textColor="#fff"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_iconColor="#fff"
+        android:title="MATCHES"
+        />
+
+    <item
+        android:id="@+id/profile123"
+        android:icon="@drawable/profile1"
+        app:cnb_textColor="#fff"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_iconColor="#fff"
+        android:title="PROFILE"
+
+        />
+
+    <item
+        android:id="@+id/logout123"
+        android:icon="@drawable/logout1"
+        app:cnb_textColor="#fff"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_iconColor="#fff"
+        android:title="LOG-OUT"
+
+        />
+
+</menu>

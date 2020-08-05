@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background2"
+        tools:context=".UserGuidesActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO THE JADA PLUG"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/newgestures"/>
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="1. SWIPE LEFT IF YOU DON'T LIKE THE PERSON \n2. CLICK TO GO TO THE CARD'S PROFILE \n3. SWIPE RIGHT IF YOU LIKE THE PERSON"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/buttontwo"
+            android:layout_marginTop="250dp"/>
+
+        <TextView
+            android:layout_marginTop="350dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1st BUTTON TAKE YOU TO THE HOME ACTIVITY \n2nd BUTTON TAKES YOU TO PROFILES THAT YOU ARE MATCHED WITH \n3rd BUTTON TAKES YOU TO YOUR USER PROFILE \n4th BUTTON LOGS OUT YOUR ACCOUNT"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/button"
+            android:layout_marginTop="490dp"/>
+
+        <TextView
+            android:layout_marginTop="580dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOCATION: MATCHES YOU WITH USERS THAT ARE IN YOUR SAME LOCATION \nAGE PREFERENCE: MATCHES YOU WITH YOUR DEFINED AGE PREFERENCES \nGENDER: MATCHES YOU WITH USER OF THE SAME SEX AS YOU"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="750dp"
+            android:layout_marginEnd="103dp"
+            android:background="@drawable/rounded"
+            android:text="GET STARTED"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+
+

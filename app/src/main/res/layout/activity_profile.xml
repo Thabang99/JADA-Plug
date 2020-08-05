@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ProfileActivity"
+        android:padding="16dp"
+        android:background="@drawable/background"
+        >
+
+        <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_margin="8dp"
+            app:corner_radius="25dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:id="@+id/profileImageView"
+                android:src="@drawable/person"/>
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/profileName"
+                android:hint="ENTER YOUR FULL NAMES"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="#88333639"
+                android:layout_alignBottom="@+id/profileImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="BIO:"
+            android:layout_marginTop="380dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/bio"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:hint="ENTER YOUR BIO HERE"
+            android:layout_marginTop="365dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="60dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="AGE PREFERENCES:"
+            android:layout_marginTop="418dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/agePreferenceBtn"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="435dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            >
+            <RadioButton android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18-25"
+                />
+            <RadioButton android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="26-35"
+                />
+            <RadioButton android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="36-45+"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="LOCATION:"
+            android:textStyle="bold"
+            android:layout_marginTop="550dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:id="@+id/locationField"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:hint="PROVIDE WHERE YOU LIVE"
+            android:layout_marginTop="545dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="USER AGE:"
+            android:textStyle="bold"
+            android:layout_marginTop="418dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="260dp"/>
+
+
+        <EditText
+            android:layout_width="120dp"
+            android:id="@+id/userAge"
+            android:layout_height="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:hint="AGE"
+            android:layout_marginTop="450dp"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:layout_marginLeft="250dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="HOBBIES:"
+            android:textStyle="bold"
+            android:layout_marginTop="615dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/hobbiesBtn"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="650dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            >
+            <RadioButton android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIDEO GAMES"
+                />
+            <RadioButton android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SINGING"
+                />
+            <RadioButton android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="READING NOVELS"
+                />
+        </RadioGroup>
+
+
+
+        <Button
+            android:id="@+id/confirmProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="780dp"
+            android:text="CONFIRM"
+            android:textColor="#ffff"
+            android:background="@drawable/rounded"/>
+
+
+        <Button
+            android:id="@+id/backBtnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="830dp"
+            android:text="back"
+            android:background="@android:color/transparent"
+
+            />
+    </RelativeLayout>
+
+</ScrollView>

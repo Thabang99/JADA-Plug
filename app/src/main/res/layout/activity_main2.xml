@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="4dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:onClick="toLocation"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="AGE PREFERENCES"
+        android:textStyle="bold"
+        android:onClick="toAgePreference"
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="306dp"
+      android:text="SAME GENDER"
+      android:onClick="toSameSexPreference"
+      android:textStyle="bold"
+      android:textColor="@android:color/white"
+      android:background="@android:color/transparent"
+      tools:ignore="MissingConstraints" />
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rotation_degrees="15.5"
+        tools:context=".MainActivity" />
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded"
+        android:elevation="16dp"
+        android:padding="8dp"
+        app:cnb_menuResource="@menu/menu_buttom"
+        android:id="@+id/bottom_nav"
+        />
+
+
+
+
+
+</RelativeLayout>

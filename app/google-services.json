@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "594791829376",
+    "firebase_url": "https://real-dating-101.firebaseio.com",
+    "project_id": "real-dating-101",
+    "storage_bucket": "real-dating-101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594791829376:android:e8f5e357e526aad95a7b65",
+        "android_client_info": {
+          "package_name": "bw.ac.biust.datingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594791829376-12qkrrbl55qu3m2q1bklkro24kmhci0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bw.ac.biust.datingapp",
+            "certificate_hash": "13ec61030d1b11ba03d1a7d1c35324ce9887ede0"
+          }
+        },
+        {
+          "client_id": "594791829376-eb9f47jpvujvcmakrkh29s0af23hdf4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDHumyvtCBS8nc59Omkec5pqRgzkEt3Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594791829376-eb9f47jpvujvcmakrkh29s0af23hdf4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

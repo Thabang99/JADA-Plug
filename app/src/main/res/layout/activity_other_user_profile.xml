@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".OtherUserProfile">
+
+    <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_margin="8dp"
+        app:corner_radius="25dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/otherProfile"
+            android:src="@drawable/person"/>
+
+    </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded"
+        android:elevation="16dp"
+        android:padding="8dp"
+        app:cnb_menuResource="@menu/menu_buttom"
+        android:id="@+id/bottom_nav"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME:"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:id="@+id/otherName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#bfff00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:text="######"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIO:"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="450dp"/>
+
+    <TextView
+        android:id="@+id/otherBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#bfff00"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:text="######"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE:"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="550dp"/>
+
+    <TextView
+        android:id="@+id/otherAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#bfff00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"
+        android:text="######"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION:"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="600dp"/>
+
+    <TextView
+        android:id="@+id/otherLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#bfff00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="140dp"
+        android:text="######"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOBBIES:"
+        android:textStyle="bold"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="650dp"/>
+
+    <TextView
+        android:id="@+id/otherHobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#bfff00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="120dp"
+        android:text="######"/>
+
+
+
+</RelativeLayout>
